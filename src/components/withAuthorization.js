@@ -23,6 +23,6 @@ const withAuthorization = (authCondition) => (Component) => {
   }
 
   return withRouter(WithAuthorization);
-}
+};
 
 export default withAuthorization;
